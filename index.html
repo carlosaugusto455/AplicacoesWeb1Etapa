@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz para Inteligentes🧠</title>
+</head>
+<body>
+    
+    <section>
+        <div id="pontuacao">
+            <p>Pergunta: <span id="perguntaAtual">1</span>/10</p>
+        </div>
+        <div id="pergunta">
+            <h1 id="perguntaText">Titulo da Pergunta</h2>
+        </div>
+        <div id="alternativas">
+            <div id="alternativas_a">
+                <p id="resp1" onclick="checarResposta(1)">Resposta 1</p>
+                <p id="resp2" onclick="checarResposta(2)">Resposta 2</p>
+            </div>
+            <div id="alternativas_b">
+                <p id="resp3" onclick="checarResposta(3)">Resposta 3</p>
+                <p id="resp4" onclick="checarResposta(4)">Resposta 4</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
